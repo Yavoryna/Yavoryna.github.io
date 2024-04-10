@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles/create_user.css">
+</head>
+<body class="creating-page">
+    <div class="form-container">
+        <h1>Registration</h1>
+        <form method="post" class="form">
+            
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control name-input" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control email-input" id="email" name="email">
+            </div>
+            <button type="submit" class="btn">Create</button>
+        </form>
+    </div>
+<!--    <a href="{% url 'home' %}">Go to Home Page</a>-->
+</body>
+</html>
